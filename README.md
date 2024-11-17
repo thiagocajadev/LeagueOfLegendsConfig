@@ -68,6 +68,7 @@ C:\Riot Games\League of Legends\Config
 ```
 
 ![Input.ini](/assets/img/02-exemplo-persisted-settings.png)
+ 
 *Exemplo no arquivo PersistedSettings.json*
 
 **Nota:** Certifique-se de manter a estrutura JSON válida. Não remova ou edite outras seções, a menos que saiba o que
