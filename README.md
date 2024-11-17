@@ -37,7 +37,8 @@ C:\Riot Games\League of Legends\Config
 RollerButtonSpeed=0
 ```
 
-![Input.ini](/assets/img/01-exemplo-input-ini.png)   
+![Input.ini](/assets/img/01-exemplo-input-ini.png)  
+
 *Exemplo no arquivo input.ini*
 
 4. Salve o arquivo e feche o editor de texto.
