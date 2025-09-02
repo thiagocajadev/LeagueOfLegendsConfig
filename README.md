@@ -21,9 +21,9 @@ C:\Riot Games\League of Legends\
 
 Se você alterou o diretório de instalação, ajuste o caminho conforme necessário.
 
-## Desativar Zoom pelo mouse no League of Legends
+# Desativar Zoom via mouse scroll
 
-### Método 1: Editando o arquivo `input.ini`
+## Método 1: Editando o arquivo `input.ini`
 
 <details>
 <summary>passo a passo...</summary>
@@ -49,7 +49,7 @@ RollerButtonSpeed=0
 4. Salve o arquivo e feche o editor de texto.
 </details>
 
-### Método 2: Editando o arquivo `PersistedSettings.json`
+## Método 2: Editando o arquivo `PersistedSettings.json`
 
 <details>
 <summary>passo a passo...</summary>
@@ -86,13 +86,15 @@ RollerButtonSpeed=0
 
 ---
 
-## Exibir alcance de ataque
+# Exibir alcance de ataque
+
+![Jinx tei-tei pow-pow](assets/img/jinx-compact.gif)
 
 Quando você aperta tecla de atalho `C`, é exibido o **alcance de ataque**. Para ter a praticidade de jogar sabendo o limite do seu campeão, nada melhor do que combinar esse atalho com a função de **fixar a camera**.
 
 Eu jogo com a tela solta e quando preciso focar a camera no campeão, mantenho pressionada a tecla `Espaço`.
 
-### Método 1: Editando o arquivo `input.ini`
+## Método 1: Editando o arquivo `input.ini`
 
 <details>
 <summary>passo a passo...</summary>
@@ -119,7 +121,7 @@ evtShowCharacterMenu=[c],[space]
 </details>
 
 
-### Método 2: Editando o arquivo `PersistedSettings.json`
+## Método 2: Editando o arquivo `PersistedSettings.json`
 
 <details>
 <summary>passo a passo...</summary>
@@ -135,7 +137,7 @@ evtShowCharacterMenu=[c],[space]
 
 3. Adicione ou edite o seguinte bloco de código no arquivo:
 
-```json
+```js
 // Pesquise pela chave evtShowCharacterMenu dentro do arquivo PersistedSettings.json.
 // Adicione o atalho para fixar a camera e o alcance de ataque.
 {
@@ -152,7 +154,7 @@ evtShowCharacterMenu=[c],[space]
 4. Salve o arquivo e feche o editor de texto.
 </details>
 
-### Dicas Finais
+## Dicas Finais
 
 - Após realizar qualquer uma das configurações, reinicie o cliente do League of Legends para que as alterações sejam
   aplicadas.
